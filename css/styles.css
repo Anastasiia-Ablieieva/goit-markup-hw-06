@@ -17,6 +17,7 @@
   --section-team-color: #f5f4fa;
   --border-color: #eeeeee;
   --icon-color: #afb1b8;
+  --activity-text-color: #ffffff;
   --hover-bacground-color: #2196f3;
   --hover-icon-color: #ffffff;
   --contacts-icon-color: #757575;
@@ -31,6 +32,7 @@
   --lable-text-color: #757575;
   --modal-icon-color: #212121;
   --checkbox-icon-color: #ffffff;
+  --input-text-color: #afb1b8;
   --timing-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -414,7 +416,7 @@ body {
   font-weight: 700;
   text-transform: uppercase;
   background: rgba(47, 48, 58, 0.8);
-  color: var(--lable-text-color);
+  color: var(--activity-text-color);
 }
 
 /* Team */
@@ -741,6 +743,7 @@ body {
   border: 1px solid rgba(255, 255, 255, 0.3);
   filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.15));
   border-radius: 4px;
+  color: var(--input-text-color);
 }
 
 .mailing__field::placeholder {
@@ -936,6 +939,8 @@ body {
 .checkbox__text {
   display: flex;
   align-items: center;
+  justify-content: center;
+  gap: 8px;
   line-height: 1.71;
 }
 
@@ -943,8 +948,6 @@ body {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 12px;
-  margin-right: 10px;
 
   width: 16px;
   height: 15px;
@@ -979,6 +982,7 @@ body {
 
   border: none;
   font-size: 16px;
+  font-weight: 700;
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: var(--button-text-color);
